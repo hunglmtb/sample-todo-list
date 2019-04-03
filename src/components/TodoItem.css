@@ -1,0 +1,55 @@
+.ToDoItem {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ToDoItem.active {
+    color: #2B2B2B;
+}
+
+.ToDoItem.done {
+    color: #cccccc;
+}
+
+.ToDoItem-Text {
+    width: 90%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.ToDoItem-Delete {
+    width: 35px;
+    /*padding: 5px;*/
+    height: 35px;
+    cursor: pointer;
+    background: red;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #bfbfc1;
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.ToDoItem-Delete:hover {
+    box-shadow: none;
+    margin-left: 1px;
+}
+
+.ToDoCheckbox{
+    width: 35px;
+    height: 35px;
+}
+
+.TodoLabel {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem;
+    height: 1.5em;
+    line-height: 1.5;
+    width: calc(100% - 45px);
+}
